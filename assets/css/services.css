@@ -1,0 +1,121 @@
+
+:root {
+
+  --nionx-font: "Plus Jakarta Sans", sans-serif;
+  --nionx-heading-font: "Instrument Sans", sans-serif;
+  --nionx-special-font: "DM Sans", sans-serif;
+  --nionx-font-awesome: "Font Awesome 5 Free";
+  --nionx-text: #6c6a72;
+  --nionx-text-rgb: 108, 106, 114;
+  --nionx-text2: #897ca3;
+  --nionx-text2-rgb: 137, 124, 163;
+  --nionx-title: #1d1729;
+  --nionx-title-rgb: 29, 23, 41;
+  --nionx-text-dark: #6e6b70;
+  --nionx-text-dark-rgb: 110, 107, 112;
+  --nionx-text-gray: #89868d;
+  --nionx-text-gray-rgb: 137, 134, 141;
+  --bot-title-color : #4293a1;
+  /* --nionx-base: #069adb; */
+  
+  --nionx-base: #384C5E;
+  --nionx-base-rgb: 95, 45, 222;
+  --nionx-gray: #f4f2f9;
+  --nionx-gray-rgb: 244, 242, 249;
+  --nionx-white: #fff;
+  --nionx-white-rgb: 255, 255, 255;
+  --nionx-black: #000000;
+  --nionx-black-rgb: 0, 0, 0;
+  --nionx-border-color: #d9d9d9;
+  --nionx-border-color-rgb: 217, 217, 217;
+  --nionx-letter-space: 0.1em;
+  --nionx-letter-space-xl: 0.2em;
+}
+
+.arrow-btn {
+    position: relative;
+    margin: auto;
+    padding: 7px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .arrow-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #f4f2f9;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .arrow-btn span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .arrow-btn svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .arrow-btn:hover:before {
+    width: 100%;
+    background: #b1dae7;
+   }
+   
+   .arrow-btn:hover svg {
+    transform: translateX(0);
+   }
+   
+   .arrow-btn:active {
+    transform: scale(0.95);
+   }
+
+
+/* service one */
+.service-one-padding{
+    margin-top: 50px;
+}
+.section-two-padding{
+    margin-top: 50px; 
+}
+.section-three-padding{
+    margin-top: 50px; 
+    
+}
+.ai-ml-img img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.section-2-card{
+    border: 1px solid #ededed;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.section-2-card h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+.work-process-one__single__item{
+}
